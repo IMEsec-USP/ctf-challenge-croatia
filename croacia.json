@@ -1,0 +1,23 @@
+{
+    "levels": [
+        {
+            "type": "flag",
+            "title": "croacia",
+            "active": true,
+            "description": "Procure uma flag dentro do site (n\u00e3o) oficial da cro\u00e1cia!",
+            "entity_iso_code": "HR",
+            "category": "IMEsec",
+            "points": 150,
+            "bonus": 30,
+            "bonus_dec": 10,
+            "bonus_fix": 30,
+            "flag": "CTF{qU3Ry_P4ram3ters!}",
+            "hint": "Para onde voc\u00ea vai quando clica em um link? O que voc\u00ea est\u00e1 procurando?",
+            "penalty": 25,
+            "links": [
+                "http:\/\/localhost:8000\/index.php"
+            ],
+            "attachments": []
+        }
+    ]
+}
