@@ -1,0 +1,8 @@
+version: '2'
+services:
+  apache-php:
+    image: php:5.6-apache
+    volumes:
+    - .:/var/www/html
+    ports:
+    - "10100:80"
